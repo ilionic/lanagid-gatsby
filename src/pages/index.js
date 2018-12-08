@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import InstagramEmbed from 'react-instagram-embed'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -122,9 +123,20 @@ class HomeIndex extends React.Component {
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="mailto:svetagid@gmail.com" target="_blank" >svetagid@gmail.com</a>
-                                        
                                     </li>
                                 </ul>
+                                <InstagramEmbed
+                                    url='https://instagr.am/p/BqvAxytAx1B/'
+                                    maxWidth={320}
+                                    hideCaption={false}
+                                    containerTagName='div'
+                                    protocol=''
+                                    injectScript
+                                    onLoading={() => {}}
+                                    onSuccess={() => {}}
+                                    onAfterRender={() => {}}
+                                    onFailure={() => {}}
+                                    />
                             </div>
                         </div>
                     </section>
