@@ -20,12 +20,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Прогулка по старому городу', description: 'Приглашаю Вас познакомиться с несравненной, загадочной и вечно прекрасной Ригой. Во время экскурсии вы узнаете как строился и развивался город - крепость. Куда подевалась река Рига, именем которой назван город. Послушаете рассказ об улочках города, как и почему они названы, какие функции выполняли. Увидете самое старое каменное здание города - церковь святого Георгия, единственное что осталось от первого замка рыцарей – крестоносцев. Вы узнаете о том как жили рыцари. Мы посмотрим в каких домах жили рижане. Как эти дома строились и в каких архитектурных стилях. Какими ремёслами занимались горожане. Мы увидим достопримечательности и удивительные места Старого города. Я расскажу вам легенды и сказки о Риге. Будет интересно и познавательно! Конечно, будут приятные сюрпризы!'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Югенд стиль', description: 'Настоящим сокровищем города являются здания, построенные в стиле модерн. Мы пройдем по улицам Риги и полюбуемся роскошными фасадами домов.Вы увидите самые красивые здания именитых архитекторов. Продолжительность экскурсии 2 часа.'},
+    { id: '3', src: full03, thumbnail: thumb03, caption: 'Рундальский дворец', description: 'Рундальский дворец (буквально — «Долина спокойствия») — загородная резиденция герцогов Курляндии. Выстроен в стиле барокко по проекту Растрелли. За дополнительной информацией, пожалуйста, обращайтесь.'},
+    { id: '4', src: full04, thumbnail: thumb04, caption: 'Сигулда', description: 'Сигулда - один из самых красивых городов Латвии. Богатая событиями история оставила вокруг Сигулды замки и крепости. За дополнительной информацией, пожалуйста, обращайтесь.'},
+    { id: '5', src: full05, thumbnail: thumb05, caption: 'Юрмала', description: 'Юрмала - крупнейший город-курорт Латвии и стран Балтии, находится в 25 км от Риги. Это длинная полоса между Рижским заливом и рекой Лиелупе. За дополнительной информацией, пожалуйста, обращайтесь.'},
+  
 ];
 
 class HomeIndex extends React.Component {
@@ -89,17 +89,16 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Добро пожаловать в Латвию!<br /></h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>ОБО МНЕ: Я живу в Риге более 30 лет и очень люблю свой город. Все это время с большим удовольствием показывала и рассказывала о Риге своим друзьям и знакомым из России, пока не появилось желание делать это профессионально. Я закончила школу гидов и получила сертификат Рижской думы на проведение экскурсий по Риге. Моя основная профессия стилист - дизайнер одежды и украшений. Увлекаюсь путешествиями - люблю бывать во Франции, Италии, Голландии, России и Прибалтике. Занимаюсь йогой и изучаю французский язык. Коммуникабельна.</p>
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
                     </section>
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>ЭКСКУРСИИ</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
                             src,
@@ -115,7 +114,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <p> Продолжительность экскурсии 2 часа, в удобное для Вас время. Проводятся с небольшими группами.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -132,18 +131,18 @@ class HomeIndex extends React.Component {
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        <h3 className="icon fa-home"></h3>
+                                        Светлана Дворникова
+                                
+                                       
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        + 371 26851465
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="#">svetagid@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
