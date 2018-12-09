@@ -11,20 +11,29 @@ import thumb02 from '../assets/images/thumbs/2.jpg'
 import thumb03 from '../assets/images/thumbs/3.jpg'
 import thumb04 from '../assets/images/thumbs/4.jpg'
 import thumb05 from '../assets/images/thumbs/5.jpg'
+import thumb06 from '../assets/images/thumbs/6.jpg'
+import thumb07 from '../assets/images/thumbs/7.jpg'
+
 
 import full01 from '../assets/images/fulls/1.jpg'
 import full02 from '../assets/images/fulls/2.jpg'
 import full03 from '../assets/images/fulls/3.jpg'
 import full04 from '../assets/images/fulls/4.jpg'
 import full05 from '../assets/images/fulls/5.jpg'
+import full06 from '../assets/images/fulls/6.jpg'
+import full07 from '../assets/images/fulls/7.jpg'
+
+
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Прогулка по старому городу', description: 'Приглашаю Вас познакомиться с несравненной, загадочной и вечно прекрасной Ригой. Во время экскурсии вы узнаете как строился и развивался город - крепость. Куда подевалась река Рига, именем которой назван город.'},
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Югенд стиль', description: 'Настоящим сокровищем города являются здания, построенные в стиле модерн. Мы пройдем по улицам Риги и полюбуемся роскошными фасадами домов.Вы увидите самые красивые здания именитых архитекторов. Продолжительность экскурсии 2 часа.'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Юрмала', description: 'Юрмала - крупнейший город-курорт Латвии и стран Балтии, находится в 25 км от Риги. Это длинная полоса между Рижским заливом и рекой Лиелупе. За дополнительной информацией, пожалуйста, обращайтесь.'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Сигулда', description: 'Сигулда - один из самых красивых городов Латвии. Богатая событиями история оставила вокруг Сигулды замки и крепости. За дополнительной информацией, пожалуйста, обращайтесь.'},
+    { id: '6', src: full06, thumbnail: thumb06, caption: 'Рассказы фонарей о Старой Риге', description: 'Вечерняя экскурсия «Рассказы фонарей о Старой Риге». Сказки, легенды и истории, рассказанные рижскими фонарями.'},
+    { id: '7', src: full07, thumbnail: thumb07, caption: 'Флора и фауна на домах и улицах Старого города', description: 'Экскурсия- квест. Увидим и узнаем- какие животные, птицы, рыбы и растения живут на зданиях и о чем они говорят.'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Рундальский дворец', description: 'Рундальский дворец (буквально — «Долина спокойствия») — загородная резиденция герцогов Курляндии. Выстроен в стиле барокко по проекту Растрелли. За дополнительной информацией, пожалуйста, обращайтесь.'},
-  
+
 ];
 
 class HomeIndex extends React.Component {
