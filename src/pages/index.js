@@ -84,7 +84,7 @@ class HomeIndex extends React.Component {
 
     render() {
         const siteTitle = "Светлана гид по Риге"
-        const siteDescription = "Сертифицированный частный гид Светлана познакомит Вас с Ригой."
+        const siteDescription = "Сертифицированный частный гид Светлана познакомит Вас с Ригой"
 
         return (
             <Layout>
