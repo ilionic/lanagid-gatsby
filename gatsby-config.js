@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Lanagid - гид по Риге",
+    title: "Светлана гид по Риге",
     author: "Светлана Дворникова",
-    description: "Сертифицированный частный гид Светлана рада встретить Вас в Риге"
+    description: "Сертифицированный частный гид Светлана познакомит Вас с Ригой"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
