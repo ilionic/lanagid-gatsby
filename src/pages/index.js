@@ -83,7 +83,7 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Светлана гид по Риге"
+        const siteTitle = "Светлана гид по Риге | Экскурсии по Риге и Латвии"
         const siteDescription = "Сертифицированный частный гид Светлана познакомит Вас с Ригой"
 
         return (
@@ -134,6 +134,10 @@ class HomeIndex extends React.Component {
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="mailto:svetagid@gmail.com" target="_blank" >svetagid@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <h3 className="icon fa-instagram"><span className="label">Insragram</span></h3>
+                                        <a href="https://www.instagram.com/svetagidriga/" target="_blank" >Instagram</a>
                                     </li>
                                 </ul>
                                 <InstagramEmbed
